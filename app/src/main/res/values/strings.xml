@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CVApplication</string>
+    <string name="contact_me">contact me</string>
+    <string name="skills">skills</string>
+    <string name="socialMedia">Social media</string>
+    <string name="languages">languages</string>
+    <string name="education">education</string>
+    <string name="experience">experience</string>
+</resources>

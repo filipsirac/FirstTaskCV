@@ -1,0 +1,44 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryLight</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MarginAndSizeYellowTextView" parent="TextAppearance.AppCompat">
+        <item name="android:layout_margin">@dimen/heading_margin</item>
+        <item name="android:layout_marginTop">@dimen/description_margin_top</item>
+        <item name="android:textSize">@dimen/text_size_description_text</item>
+    </style>
+
+    <style name="MarginAndTextSizeMainConstraint" parent="TextAppearance.AppCompat">
+        <item name="android:layout_marginStart">@dimen/description_margin_start</item>
+        <item name="android:textSize">@dimen/text_size_description_text</item>
+    </style>
+
+    <style name="HeadingMarginAndTextSize" parent="TextAppearance.AppCompat">
+        <item name="android:layout_marginTop">@dimen/heading_margin_top</item>
+        <item name="android:layout_margin">@dimen/heading_margin_start</item>
+        <item name="android:textSize">@dimen/heading_text_size_white</item>
+    </style>
+
+    <style name="Heading" parent="TextAppearance.AppCompat">
+        <item name="android:layout_marginTop">@dimen/description_margin_top</item>
+        <item name="android:layout_marginStart">@dimen/heading_margin_start</item>
+        <item name="android:textSize">@dimen/heading_text_size_grey</item>
+    </style>
+
+    <style name="SingleLine" parent="TextAppearance.AppCompat">
+        <item name="android:layout_marginTop">@dimen/margin_top_single_line</item>
+        <item name="android:textSize">@dimen/text_size_single_line</item>
+        <item name="android:layout_marginStart">@dimen/description_margin_start</item>
+        <item name="android:layout_width">@dimen/layout_width</item>
+
+
+    </style>
+
+
+</resources>
